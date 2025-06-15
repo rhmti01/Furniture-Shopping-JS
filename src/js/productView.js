@@ -52,7 +52,7 @@ export default class productView {
                     <!-- product image -->
                     <img  class=" max:w-full sgx:w-24 sgx:rounded-lg max:rounded-none " src="${product.imageUrl}" alt="product-image" srcset="">
                     <!-- product info -->
-                    <div class=" flex items-center justify-between  w-full bg-cyan-200/ mt-2 py-1 ">
+                    <div class=" flex items-center justify-between  w-full bg-cyan-200/ mt-2 py-1  ">
                         <div class=" flex items-start justify-center flex-col  ">
                             <h5 class=" font-semibold text-slate-700 lsx:text-base lax:text-[15px] mgx:text-[14.5px] msx:text-[14px] max:text-[13.5px] sgx:text-[15px] ">
                                 ${product.title}</h5>
@@ -156,7 +156,7 @@ export default class productView {
         <div id="boughtProduct" data-id="${product.id}" class=" flex items-center justify-between w-full bg-blue-100/ xl:mt-0 md:mt-2 mt-4 xl:py-3 md:py-2 xl:px-4 md:px-3 px-3 ">
             <!-- info -->
             <img class=" md:w-24 xl:w-28 w-20  rounded-lg " src="${product.imageUrl}" alt="" srcset="">
-            <div class=" -ml-8 flex flex-col items-start justify-center ">
+            <div class=" -ml-2 flex flex-col items-start justify-center ">
                 <h4 class=" xl:text-lg md:text-base font-semibold text-black mr-6 ">${product.title}</h4>
                 <div class="  bg-black/  flex justify-center items-center gap-x-1 mt-3  ">
                     <a
